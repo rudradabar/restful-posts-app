@@ -1,0 +1,53 @@
+/* Global page styling */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #800000;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Post card styling */
+.post {
+  background-color: #fff7e6;
+  border-radius: 8px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Username styling */
+.user {
+  font-style: italic;
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 8px;
+}
+
+/* Post content text */
+.post p {
+  margin: 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Buttons & links */
+a, button {
+  text-decoration: none;
+  background-color: #800000;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+a:hover, button:hover {
+  background-color: #5a0000;
+}
